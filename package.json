@@ -1,0 +1,23 @@
+{
+  "name": "weathepapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mai Aloni",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.7.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.15",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^1.17.3",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  }
+}
